@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/TimeOntology" uri="file:/Users/ugenc/Downloads/TimeOntology-1.0.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/PeriodicSignalOntology" uri="file:/Users/ugenc/Downloads/PeriodicSignalOntology-1.0.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/ElectricPowerSystemOntology" uri="file:/Users/ugenc/Downloads/ElectricPowerSystemOntology-1.0.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/ForecastingOntology-1.0" uri="file:/Users/ugenc/Downloads/ForecastingOntology-1.1.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/pep/" uri="file:/Users/ugenc/Downloads/pep-1.1.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/FeatureOfInterestOntology" uri="file:/Users/ugenc/Downloads/FeatureOfInterestOntology-1.0.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/EvaluationOntology" uri="file:/Users/ugenc/Downloads/EvaluationOntology-1.0.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/SystemOntology" uri="file:/Users/ugenc/Downloads/SystemOntology-1.1.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/pep/pep-1.0" uri="file:/Users/ugenc/Downloads/pep-1.1.rdf"/>
+    <uri id="User Entered Import Resolution" name="file:/Users/ugenc/Downloads/DeviceOntology-1.0" uri="file:/Users/ugenc/Downloads/DeviceOntology-1.0.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://ci.mines-stetienne.fr/pep/pep-1.0" uri="file:/Users/ugenc/Downloads/PhotovoltaicOntology-1.0.rdf"/>
+    <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/RePlanIT/" uri="file:/Users/ugenc/Downloads/Ontology-main/RePlaniTv3.4.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1733732288966" name="duplicate:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv-onto-241122.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733732288966" name="duplicate:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv-onto-241222.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733732288966" name="http://www.w3.org/2006/time" uri="fairpv/091224/fairpv-091224.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733732288966" name="shadowed:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv/fairpv-onto-241122.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733732288966" name="shadowed:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv/fairpv-onto-241222.rdf"/>
+    </group>
+</catalog>
