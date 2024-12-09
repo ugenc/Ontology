@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='../classes/index.html' class='' >Classes</a>
+<a href='index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Object Property: connectedTo</h2>
+
+<div id='annotations_(4)'>
+<h4>Annotations (4)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"Links a system to a system it is connected to.<br /><br />Connected systems interact in some way. The exact meaning of _interact_ is defined by sub properties of `seas:connectedTo`.<br /><br />For example, for the electricity to directly flow between an electric vehicle service equipment and an electric vehicle, then they must be linked by property `seas:exchangesElectricityWith`: <br /><br />```<br />seas:exchangesElectricityWith rdfs:subPropertyOf seas:connectedTo .<br /><br />&lt;electric_vehicle&gt; seas:exchangesElectricityWith &lt;electric_vehicle_service_equipment&gt; .<br />```<br /><br />Property `seas:connectedTo` is symmetric:<br /><br />```<br />if x seas:connectedTo y, then it is true that y seas:connectedTo x.<br />```<br /><br />This property can be qualified using class `seas:Connection`, which connects the two systems.<br /><br />If there is a connection between several systems, then one may infer these systems are pairwise connected."</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/isDefinedBy___449337134.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">rdfs:isDefinedBy</a> https://ci.mines-stetienne.fr/seas/<b>SystemOntology</b> 
+<a href='https://ci.mines-stetienne.fr/seas/SystemOntology' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"connected to"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/term_status___-334621886.html" class='Annotation Property' title="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">term_status</a> <span class='literal'>"stable"</span></li>
+</ul>
+</div>
+</div><!-- annotations (4) -->
+
+
+<div id='property_characteristics_(1)'>
+<h4>Property Characteristics (1)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><span class='keyword'>Symmetric</span> (<span class='Object Property active-entity'>connectedTo</span>)</li>
+</ul>
+</div>
+</div><!-- property characteristics (1) -->
+
+
+<div id='domains_(1)'>
+<h4>Domains (1)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../classes/System___1227331026.html" class='Class' title="https://ci.mines-stetienne.fr/seas/System">System</a></li>
+</ul>
+</div>
+</div><!-- domains (1) -->
+
+
+<div id='ranges_(1)'>
+<h4>Ranges (1)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../classes/System___1227331026.html" class='Class' title="https://ci.mines-stetienne.fr/seas/System">System</a></li>
+</ul>
+</div>
+</div><!-- ranges (1) -->
+
+
+<div id='usage_(2)'>
+<h4>Usage (2)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../classes/PowerBox___-341000663.html" class='Class' title="https://ci.mines-stetienne.fr/seas/PowerBox">PowerBox</a> <span class='keyword'>&sube;</span> <span class='Object Property active-entity'>connectedTo</span> <span class='some'>some</span> <a href="../classes/ElectricPowerSystem___-1221993062.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerSystem">ElectricPowerSystem</a></li>
+<li class="asserted"><a href="exchangesElectricityWith___-1091896950.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/exchangesElectricityWith">exchangesElectricityWith</a> <span class='keyword'>&sube;</span> <span class='Object Property active-entity'>connectedTo</span></li>
+</ul>
+</div>
+</div><!-- usage (2) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

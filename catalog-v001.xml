@@ -13,10 +13,7 @@
     <uri id="User Entered Import Resolution" name="https://ci.mines-stetienne.fr/pep/pep-1.0" uri="file:/Users/ugenc/Downloads/PhotovoltaicOntology-1.0.rdf"/>
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/RePlanIT/" uri="file:/Users/ugenc/Downloads/Ontology-main/RePlaniTv3.4.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1733732288966" name="duplicate:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv-onto-241122.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1733732288966" name="duplicate:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv-onto-241222.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1733732288966" name="http://www.w3.org/2006/time" uri="fairpv/091224/fairpv-091224.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1733732288966" name="shadowed:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv/fairpv-onto-241122.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1733732288966" name="shadowed:http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv/fairpv-onto-241222.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733734797568" name="http://www.semanticweb.org/aneliakurteva/ontologies/2024/6/untitled-ontology-203" uri="fairpv-onto-241222.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733734797568" name="http://www.semanticweb.org/ugenc/ontologies/2024/11/fairpv-241209" uri="test-ont/fairpv-t-241209.rdf"/>
     </group>
 </catalog>

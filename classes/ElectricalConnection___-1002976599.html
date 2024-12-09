@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: ElectricalConnection</h2>
+
+<div id='annotations_(4)'>
+<h4>Annotations (4)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"The class of electrical connections between electric power systems.<br />  An electrical connection describes potential electricity flows between the electric power systems it connects.<br />  For example, the following RDF graph states that a power bus connects two power lines and a transformer:<br /><br />```<br />  &lt;power_bus&gt; a seas:ElectricalConnection ;<br />    seas:connectsSystem &lt;power_line_1&gt; , &lt;transformer&gt; , &lt;power_line_2&gt; .<br />```<br /><br />  Only electric power systems and electrical connection points are connected through an electrical connection.<br />  A connection between electric power systems is not necessarily an electrical connection.<br /><br />  Any electric power system that exchanges electricity through an electrical connection is connected at least through one of its power connection points to the electrical connection:<br />  if:<br /><br />```<br />  &lt;power_system&gt; a seas:ElectricPowerSystem .<br />  &lt;power_connection&gt; a seas:ElectricalConnection .<br />  &lt;power_system&gt; seas:connectedThrough &lt;power_connection&gt; .<br />```<br /><br />  then there exists `_:powerConnectionPoint` such that:<br /><br />```<br />  _:powerConnectionPoint a seas:ElectricalConnectionPoint ;<br />    seas:connectionPointOf &lt;power-system&gt; ;<br />    seas:connectsSystemThrough &lt;power_connection&gt; .<br />```"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/isDefinedBy___449337134.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">rdfs:isDefinedBy</a> https://ci.mines-stetienne.fr/seas/<b>ElectricPowerSystemOntology</b> 
+<a href='https://ci.mines-stetienne.fr/seas/ElectricPowerSystemOntology' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Electrical Connection"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/term_status___-334621886.html" class='Annotation Property' title="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">term_status</a> <span class='literal'>"testing"</span></li>
+</ul>
+</div>
+</div><!-- annotations (4) -->
+
+
+<div id='superclasses_(6)'>
+<h4>Superclasses (6)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Connection___-46361983.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Connection">Connection</a></li>
+<li class="inferred"><a href="../objectproperties/connectsSystem___-499400741.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystem">connectsSystem</a> <span class='some'>some</span> <a href="System___1227331026.html" class='Class' title="https://ci.mines-stetienne.fr/seas/System">System</a></li>
+<li class="inferred"><a href="../objectproperties/connectsSystemAt___-755297746.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystemAt">connectsSystemAt</a> <span class='some'>some</span> <a href="ConnectionPoint___-1543343947.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ConnectionPoint">ConnectionPoint</a></li>
+<li class="asserted"><a href="../objectproperties/voltage___-631794975.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/voltage">voltage</a> <span class='some'>some</span> <a href="Property___2102294904.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Property">Property</a></li>
+<li class="asserted"><a href="../objectproperties/connectsSystem___-499400741.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystem">connectsSystem</a> <span class='only'>only</span> <a href="ElectricPowerSystem___-1221993062.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerSystem">ElectricPowerSystem</a></li>
+<li class="asserted"><a href="../objectproperties/connectsSystemAt___-755297746.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystemAt">connectsSystemAt</a> <span class='only'>only</span> <a href="ElectricalConnectionPoint___-712240755.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricalConnectionPoint">ElectricalConnectionPoint</a></li>
+</ul>
+</div>
+</div><!-- superclasses (6) -->
+
+
+<div id='disjoints_(2)'>
+<h4>Disjoints (2)</h4>
+<div class='codebox'>
+<span class="asserted"><span class='Class active-entity'>ElectricalConnection</span></span>,
+<span class="asserted"><a href="ElectricPowerSystem___-1221993062.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerSystem">ElectricPowerSystem</a></span></div>
+</div><!-- disjoints (2) -->
+
+
+<div id='usage_(6)'>
+<h4>Usage (6)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="ElectricPowerTransformer___561807796.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerTransformer">ElectricPowerTransformer</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/primarilyConnectedThrough___-894736354.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/primarilyConnectedThrough">primarilyConnectedThrough</a> <span class='some'>some</span> <span class='Class active-entity'>ElectricalConnection</span></li>
+<li class="asserted"><a href="ElectricPowerTransformer___561807796.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerTransformer">ElectricPowerTransformer</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/secondarilyConnectedThrough___1386189584.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/secondarilyConnectedThrough">secondarilyConnectedThrough</a> <span class='some'>some</span> <span class='Class active-entity'>ElectricalConnection</span></li>
+<li class="asserted"><a href="ElectricalConnectionPoint___-712240755.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricalConnectionPoint">ElectricalConnectionPoint</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/connectsSystemThrough___1848458960.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystemThrough">connectsSystemThrough</a> <span class='only'>only</span> <span class='Class active-entity'>ElectricalConnection</span></li>
+<li class="asserted"><a href="../objectproperties/voltage___-631794975.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/voltage">voltage</a> <span class='keyword'>Domain</span> (<a href="ElectricalConnectionPoint___-712240755.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricalConnectionPoint">ElectricalConnectionPoint</a> <span class='keyword'>or</span> <span class='Class active-entity'>ElectricalConnection</span>)</li>
+<li class="asserted"><a href="../objectproperties/primarilyConnectedThrough___-894736354.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/primarilyConnectedThrough">primarilyConnectedThrough</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricalConnection</span></li>
+<li class="asserted"><a href="../objectproperties/secondarilyConnectedThrough___1386189584.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/secondarilyConnectedThrough">secondarilyConnectedThrough</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricalConnection</span></li>
+</ul>
+</div>
+</div><!-- usage (6) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: System</h2>
+
+<div id='annotations_(4)'>
+<h4>Annotations (4)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"The class of systems, i.e., systems virtually isolated from the environment, whose behaviour and interactions with the environment are modeled.<br /><br />  Systems can be connected to other systems. Connected systems interact in some ways. For example:<br /><br />```<br />&lt;electric_vehicle&gt; seas:connectedTo &lt;electric_vehicle_service_equipment&gt; .<br />```<br /><br />  Systems can also have subsystems. Properties of subsystems somehow contribute to the properties of the supersystem. For example:<br /><br />```<br />&lt;battery&gt; seas:subSystemOf &lt;electric_vehicle&gt; .<br />```<br /><br />Figure below illustrates systems and their connections:<br /><br />[![Systems and their connections](https://w3id.org/seas/system1.png)](https://w3id.org/seas/system1.png)<br /><br />"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/isDefinedBy___449337134.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">rdfs:isDefinedBy</a> https://ci.mines-stetienne.fr/seas/<b>SystemOntology</b> 
+<a href='https://ci.mines-stetienne.fr/seas/SystemOntology' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"System"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/term_status___-334621886.html" class='Annotation Property' title="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">term_status</a> <span class='literal'>"stable"</span></li>
+</ul>
+</div>
+</div><!-- annotations (4) -->
+
+
+<div id='superclasses_(1)'>
+<h4>Superclasses (1)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="FeatureOfInterest___-280468198.html" class='Class' title="https://ci.mines-stetienne.fr/seas/FeatureOfInterest">FeatureOfInterest</a></li>
+</ul>
+</div>
+</div><!-- superclasses (1) -->
+
+
+<div id='disjoints_(3)'>
+<h4>Disjoints (3)</h4>
+<div class='codebox'>
+<span class="asserted"><a href="Connection___-46361983.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Connection">Connection</a></span>,
+<span class="asserted"><a href="ConnectionPoint___-1543343947.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ConnectionPoint">ConnectionPoint</a></span>,
+<span class="asserted"><span class='Class active-entity'>System</span></span></div>
+</div><!-- disjoints (3) -->
+
+
+<div id='usage_(11)'>
+<h4>Usage (11)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Connection___-46361983.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Connection">Connection</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/connectsSystem___-499400741.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystem">connectsSystem</a> <span class='some'>some</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/connectedThrough___-452093185.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectedThrough">connectedThrough</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/connectedTo___460297959.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectedTo">connectedTo</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/connectsAt___-2039818657.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsAt">connectsAt</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/hasSubSystem___1563721368.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/hasSubSystem">hasSubSystem</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/subSystemOf___2026423881.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/subSystemOf">subSystemOf</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/connectedTo___460297959.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectedTo">connectedTo</a> <span class='keyword'>Range</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/connectionPointOf___1393866316.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectionPointOf">connectionPointOf</a> <span class='keyword'>Range</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/connectsSystem___-499400741.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystem">connectsSystem</a> <span class='keyword'>Range</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/hasSubSystem___1563721368.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/hasSubSystem">hasSubSystem</a> <span class='keyword'>Range</span> <span class='Class active-entity'>System</span></li>
+<li class="asserted"><a href="../objectproperties/subSystemOf___2026423881.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/subSystemOf">subSystemOf</a> <span class='keyword'>Range</span> <span class='Class active-entity'>System</span></li>
+</ul>
+</div>
+</div><!-- usage (11) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

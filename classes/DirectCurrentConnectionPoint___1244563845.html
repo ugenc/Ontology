@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: DirectCurrentConnectionPoint</h2>
+
+<div id='annotations_(4)'>
+<h4>Annotations (4)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"The class of electrical connection points through which energy flows using direct current."</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/isDefinedBy___449337134.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">rdfs:isDefinedBy</a> https://ci.mines-stetienne.fr/seas/<b>ElectricPowerSystemOntology</b> 
+<a href='https://ci.mines-stetienne.fr/seas/ElectricPowerSystemOntology' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Direct Current Connection Point"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/term_status___-334621886.html" class='Annotation Property' title="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">term_status</a> <span class='literal'>"testing"</span></li>
+</ul>
+</div>
+</div><!-- annotations (4) -->
+
+
+<div id='superclasses_(6)'>
+<h4>Superclasses (6)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="ElectricalConnectionPoint___-712240755.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricalConnectionPoint">ElectricalConnectionPoint</a></li>
+<li class="inferred"><a href="../objectproperties/electricCurrent___1745636639.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/electricCurrent">electricCurrent</a> <span class='some'>some</span> <a href="Property___2102294904.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Property">Property</a></li>
+<li class="inferred"><a href="../objectproperties/voltage___-631794975.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/voltage">voltage</a> <span class='some'>some</span> <a href="Property___2102294904.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Property">Property</a></li>
+<li class="inferred"><a href="../objectproperties/connectionPointOf___1393866316.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectionPointOf">connectionPointOf</a> <span class='only'>only</span> <a href="ElectricPowerSystem___-1221993062.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerSystem">ElectricPowerSystem</a></li>
+<li class="inferred"><a href="../objectproperties/connectsSystemThrough___1848458960.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsSystemThrough">connectsSystemThrough</a> <span class='only'>only</span> <a href="ElectricalConnection___-1002976599.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricalConnection">ElectricalConnection</a></li>
+<li class="inferred"><a href="../objectproperties/connectionPointOf___1393866316.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectionPointOf">connectionPointOf</a> <span class='exactly'>exactly</span> 1 <a href="Thing___-200689702.html" class='Class' title="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a></li>
+</ul>
+</div>
+</div><!-- superclasses (6) -->
+
+
+<div id='disjoints_(2)'>
+<h4>Disjoints (2)</h4>
+<div class='codebox'>
+<span class="asserted"><a href="AlternatingCurrentConnectionPoint___-1321119341.html" class='Class' title="https://ci.mines-stetienne.fr/seas/AlternatingCurrentConnectionPoint">AlternatingCurrentConnectionPoint</a></span>,
+<span class="asserted"><span class='Class active-entity'>DirectCurrentConnectionPoint</span></span></div>
+</div><!-- disjoints (2) -->
+
+
+<div id='usage_(19)'>
+<h4>Usage (19)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="PowerInverter___1520766603.html" class='Class' title="https://ci.mines-stetienne.fr/seas/PowerInverter">PowerInverter</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/connectsPrimarilyAt___-1848295796.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/connectsPrimarilyAt">connectsPrimarilyAt</a> <span class='only'>only</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/midToNegativeConductance___268376254.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/midToNegativeConductance">midToNegativeConductance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/midToNegativeReactance___426917241.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/midToNegativeReactance">midToNegativeReactance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/midToNegativeResistance___1944494612.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/midToNegativeResistance">midToNegativeResistance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/midToNegativeSusceptance___1564685745.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/midToNegativeSusceptance">midToNegativeSusceptance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/midToNegativeVoltage___-1562943607.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/midToNegativeVoltage">midToNegativeVoltage</a> <span class='keyword'>Domain</span> (<span class='Class active-entity'>DirectCurrentConnectionPoint</span> <span class='keyword'>or</span> <a href="DirectCurrentConnection___628635569.html" class='Class' title="https://ci.mines-stetienne.fr/seas/DirectCurrentConnection">DirectCurrentConnection</a>)</li>
+<li class="asserted"><a href="../objectproperties/midWireCurrent___700707151.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/midWireCurrent">midWireCurrent</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/negativeWireCurrent___1467188546.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/negativeWireCurrent">negativeWireCurrent</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToMidConductance___1086380066.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToMidConductance">positiveToMidConductance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToMidReactance___-1918597667.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToMidReactance">positiveToMidReactance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToMidResistance___-2046990800.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToMidResistance">positiveToMidResistance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToMidSusceptance___-1912277739.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToMidSusceptance">positiveToMidSusceptance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToMidVoltage___1594388717.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToMidVoltage">positiveToMidVoltage</a> <span class='keyword'>Domain</span> (<span class='Class active-entity'>DirectCurrentConnectionPoint</span> <span class='keyword'>or</span> <a href="DirectCurrentConnection___628635569.html" class='Class' title="https://ci.mines-stetienne.fr/seas/DirectCurrentConnection">DirectCurrentConnection</a>)</li>
+<li class="asserted"><a href="../objectproperties/positiveToNegativeConductance___1342836141.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToNegativeConductance">positiveToNegativeConductance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToNegativeReactance___-935091672.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToNegativeReactance">positiveToNegativeReactance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToNegativeResistance___-1623076027.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToNegativeResistance">positiveToNegativeResistance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToNegativeSusceptance___-1655821664.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToNegativeSusceptance">positiveToNegativeSusceptance</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+<li class="asserted"><a href="../objectproperties/positiveToNegativeVoltage___-1966595080.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveToNegativeVoltage">positiveToNegativeVoltage</a> <span class='keyword'>Domain</span> (<span class='Class active-entity'>DirectCurrentConnectionPoint</span> <span class='keyword'>or</span> <a href="DirectCurrentConnection___628635569.html" class='Class' title="https://ci.mines-stetienne.fr/seas/DirectCurrentConnection">DirectCurrentConnection</a>)</li>
+<li class="asserted"><a href="../objectproperties/positiveWireCurrent___1962964222.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/positiveWireCurrent">positiveWireCurrent</a> <span class='keyword'>Domain</span> <span class='Class active-entity'>DirectCurrentConnectionPoint</span></li>
+</ul>
+</div>
+</div><!-- usage (19) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

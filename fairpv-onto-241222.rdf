@@ -210,7 +210,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ugenc/ontologies/2024/6/fairpv-onto-2024#hasWeather">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:range rdf:resource="https://bimerr.iot.linkeddata.es/def/weather/"/>
     </owl:ObjectProperty>
     
 
@@ -662,14 +661,6 @@
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor">
         <rdfs:label>Sensor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://bimerr.iot.linkeddata.es/def/weather/ -->
-
-    <owl:Class rdf:about="https://bimerr.iot.linkeddata.es/def/weather/">
-        <rdfs:label>Weather</rdfs:label>
     </owl:Class>
     
 

@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: Forecasting</h2>
+
+<div id='annotations_(4)'>
+<h4>Annotations (4)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"Forecasting is the process of forecasting the state of a property."</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/isDefinedBy___449337134.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">rdfs:isDefinedBy</a> https://ci.mines-stetienne.fr/seas/<b>ForecastingOntology</b> 
+<a href='https://ci.mines-stetienne.fr/seas/ForecastingOntology' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Forecasting"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/term_status___-334621886.html" class='Annotation Property' title="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">term_status</a> <span class='literal'>"testing"</span></li>
+</ul>
+</div>
+</div><!-- annotations (4) -->
+
+
+<div id='superclasses_(1)'>
+<h4>Superclasses (1)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Process___898623723.html" class='Class' title="https://ci.mines-stetienne.fr/pep/Process">Process</a></li>
+</ul>
+</div>
+</div><!-- superclasses (1) -->
+
+
+<div id='usage_(7)'>
+<h4>Usage (7)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Forecast___-732797538.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecast">Forecast</a> <span class='keyword'>&equiv;</span> <a href="../objectproperties/methodUsed___-1179448614.html" class='Object Property' title="https://ci.mines-stetienne.fr/pep/methodUsed">methodUsed</a> <span class='some'>some</span> <span class='Class active-entity'>Forecasting</span></li>
+<li class="asserted"><a href="Forecaster___-1711319157.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecaster">Forecaster</a> <span class='keyword'>&equiv;</span> <a href="../objectproperties/implements___-1371895220.html" class='Object Property' title="https://ci.mines-stetienne.fr/pep/implements">implements</a> <span class='some'>some</span> <span class='Class active-entity'>Forecasting</span></li>
+<li class="asserted"><a href="Forecast___-732797538.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecast">Forecast</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/methodUsed___-1179448614.html" class='Object Property' title="https://ci.mines-stetienne.fr/pep/methodUsed">methodUsed</a> <span class='some'>some</span> <span class='Class active-entity'>Forecasting</span></li>
+<li class="asserted"><a href="Forecaster___-1711319157.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecaster">Forecaster</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/implements___-1371895220.html" class='Object Property' title="https://ci.mines-stetienne.fr/pep/implements">implements</a> <span class='some'>some</span> <span class='Class active-entity'>Forecasting</span></li>
+<li class="asserted"><span class='Class active-entity'>Forecasting</span> <span class='keyword'>and</span> <a href="../objectproperties/forecasts___319663451.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecasts">forecasts</a> <span class='some'>some</span> (<a href="SolarPanel___-679806874.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarPanel">SolarPanel</a> <span class='keyword'>or</span> <a href="SolarModule___-401866000.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarModule">SolarModule</a> <span class='keyword'>or</span> <a href="SolarCell___-830066138.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarCell">SolarCell</a> <span class='keyword'>or</span> <a href="SolarArray___-693149509.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarArray">SolarArray</a>) <span class='keyword'>and</span> <a href="../objectproperties/forecastsProperty___-449931440.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecastsProperty">forecastsProperty</a> <span class='some'>some</span> (<a href="ElectricPowerProperty___1943924544.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerProperty">ElectricPowerProperty</a> <span class='keyword'>or</span> <a href="ElectricEnergyProperty___1341332125.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricEnergyProperty">ElectricEnergyProperty</a>) <span class='keyword'>&sube;</span> <a href="PVEnergyGenerationForecasting___-1656575036.html" class='Class' title="https://ci.mines-stetienne.fr/seas/PVEnergyGenerationForecasting">PVEnergyGenerationForecasting</a></li>
+<li class="asserted"><a href="../objectproperties/forecasts___319663451.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecasts">forecasts</a> <span class='keyword'>Domain</span> (<span class='Class active-entity'>Forecasting</span> <span class='keyword'>or</span> <a href="Forecaster___-1711319157.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecaster">Forecaster</a> <span class='keyword'>or</span> <a href="Forecast___-732797538.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecast">Forecast</a>)</li>
+<li class="asserted"><a href="../objectproperties/forecastsProperty___-449931440.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecastsProperty">forecastsProperty</a> <span class='keyword'>Domain</span> (<span class='Class active-entity'>Forecasting</span> <span class='keyword'>or</span> <a href="Forecaster___-1711319157.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecaster">Forecaster</a> <span class='keyword'>or</span> <a href="Forecast___-732797538.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecast">Forecast</a>)</li>
+</ul>
+</div>
+</div><!-- usage (7) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>

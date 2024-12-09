@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+<a href='../dataproperties/index.html' class='' >Data Properties</a>
+<a href='../annotationproperties/index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Class: ElectricEnergyProperty</h2>
+
+<div id='annotations_(4)'>
+<h4>Annotations (4)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../annotationproperties/comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">rdfs:comment</a> <span class='literal'>"The class of properties that are quantifiable and have a quantity kind of electric energy."</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="../annotationproperties/isDefinedBy___449337134.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">rdfs:isDefinedBy</a> https://ci.mines-stetienne.fr/seas/<b>ElectricPowerSystemOntology</b> 
+<a href='https://ci.mines-stetienne.fr/seas/ElectricPowerSystemOntology' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a></li>
+<li class="asserted"><a href="../annotationproperties/label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> <span class='literal'>"Electric Energy Property"</span></li>
+<li class="asserted"><a href="../annotationproperties/term_status___-334621886.html" class='Annotation Property' title="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status">term_status</a> <span class='literal'>"testing"</span></li>
+</ul>
+</div>
+</div><!-- annotations (4) -->
+
+
+<div id='superclasses_(2)'>
+<h4>Superclasses (2)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="Property___2102294904.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Property">Property</a></li>
+<li class="inferred"><a href="../objectproperties/isPropertyOf___-18941223.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/isPropertyOf">isPropertyOf</a> <span class='exactly'>exactly</span> 1 <a href="Thing___-200689702.html" class='Class' title="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a></li>
+</ul>
+</div>
+</div><!-- superclasses (2) -->
+
+
+<div id='usage_(12)'>
+<h4>Usage (12)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="ElectricEnergyEvaluation___447022788.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricEnergyEvaluation">ElectricEnergyEvaluation</a> <span class='keyword'>&equiv;</span> <a href="../objectproperties/evaluationOf___-856856138.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/evaluationOf">evaluationOf</a> <span class='some'>some</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="ElectricEnergyEvaluation___447022788.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricEnergyEvaluation">ElectricEnergyEvaluation</a> <span class='keyword'>&sube;</span> <a href="../objectproperties/evaluationOf___-856856138.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/evaluationOf">evaluationOf</a> <span class='some'>some</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="Forecast___-732797538.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecast">Forecast</a> <span class='keyword'>and</span> <a href="../objectproperties/forecasts___319663451.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecasts">forecasts</a> <span class='some'>some</span> (<a href="SolarPanel___-679806874.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarPanel">SolarPanel</a> <span class='keyword'>or</span> <a href="SolarModule___-401866000.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarModule">SolarModule</a> <span class='keyword'>or</span> <a href="SolarCell___-830066138.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarCell">SolarCell</a> <span class='keyword'>or</span> <a href="SolarArray___-693149509.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarArray">SolarArray</a>) <span class='keyword'>and</span> <a href="../objectproperties/forecastsProperty___-449931440.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecastsProperty">forecastsProperty</a> <span class='some'>some</span> (<a href="ElectricPowerProperty___1943924544.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerProperty">ElectricPowerProperty</a> <span class='keyword'>or</span> <span class='Class active-entity'>ElectricEnergyProperty</span>) <span class='keyword'>&sube;</span> <a href="PVEnergyGenerationForecast___-1872441468.html" class='Class' title="https://ci.mines-stetienne.fr/seas/PVEnergyGenerationForecast">PVEnergyGenerationForecast</a></li>
+<li class="asserted"><a href="Forecaster___-1711319157.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecaster">Forecaster</a> <span class='keyword'>and</span> <a href="../objectproperties/forecasts___319663451.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecasts">forecasts</a> <span class='some'>some</span> (<a href="SolarPanel___-679806874.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarPanel">SolarPanel</a> <span class='keyword'>or</span> <a href="SolarModule___-401866000.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarModule">SolarModule</a> <span class='keyword'>or</span> <a href="SolarCell___-830066138.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarCell">SolarCell</a> <span class='keyword'>or</span> <a href="SolarArray___-693149509.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarArray">SolarArray</a>) <span class='keyword'>and</span> <a href="../objectproperties/forecastsProperty___-449931440.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecastsProperty">forecastsProperty</a> <span class='some'>some</span> (<a href="ElectricPowerProperty___1943924544.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerProperty">ElectricPowerProperty</a> <span class='keyword'>or</span> <span class='Class active-entity'>ElectricEnergyProperty</span>) <span class='keyword'>&sube;</span> <a href="PVEnergyGenerationForecaster___-1692475407.html" class='Class' title="https://ci.mines-stetienne.fr/seas/PVEnergyGenerationForecaster">PVEnergyGenerationForecaster</a></li>
+<li class="asserted"><a href="Forecasting___2054236010.html" class='Class' title="https://ci.mines-stetienne.fr/seas/Forecasting">Forecasting</a> <span class='keyword'>and</span> <a href="../objectproperties/forecasts___319663451.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecasts">forecasts</a> <span class='some'>some</span> (<a href="SolarPanel___-679806874.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarPanel">SolarPanel</a> <span class='keyword'>or</span> <a href="SolarModule___-401866000.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarModule">SolarModule</a> <span class='keyword'>or</span> <a href="SolarCell___-830066138.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarCell">SolarCell</a> <span class='keyword'>or</span> <a href="SolarArray___-693149509.html" class='Class' title="https://ci.mines-stetienne.fr/seas/SolarArray">SolarArray</a>) <span class='keyword'>and</span> <a href="../objectproperties/forecastsProperty___-449931440.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/forecastsProperty">forecastsProperty</a> <span class='some'>some</span> (<a href="ElectricPowerProperty___1943924544.html" class='Class' title="https://ci.mines-stetienne.fr/seas/ElectricPowerProperty">ElectricPowerProperty</a> <span class='keyword'>or</span> <span class='Class active-entity'>ElectricEnergyProperty</span>) <span class='keyword'>&sube;</span> <a href="PVEnergyGenerationForecasting___-1656575036.html" class='Class' title="https://ci.mines-stetienne.fr/seas/PVEnergyGenerationForecasting">PVEnergyGenerationForecasting</a></li>
+<li class="asserted"><a href="../objectproperties/consumedElectricEnergy___-994288752.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/consumedElectricEnergy">consumedElectricEnergy</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="../objectproperties/electricEnergy___1377173896.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/electricEnergy">electricEnergy</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="../objectproperties/electricEnergyBalance___-265939814.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/electricEnergyBalance">electricEnergyBalance</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="../objectproperties/incomingElectricEnergy___1227131726.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/incomingElectricEnergy">incomingElectricEnergy</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="../objectproperties/outgoingElectricEnergy___1174770708.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/outgoingElectricEnergy">outgoingElectricEnergy</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="../objectproperties/producedElectricEnergy___1934960172.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/producedElectricEnergy">producedElectricEnergy</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+<li class="asserted"><a href="../objectproperties/storedElectricEnergy___-1804838901.html" class='Object Property' title="https://ci.mines-stetienne.fr/seas/storedElectricEnergy">storedElectricEnergy</a> <span class='keyword'>Range</span> <span class='Class active-entity'>ElectricEnergyProperty</span></li>
+</ul>
+</div>
+</div><!-- usage (12) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>
